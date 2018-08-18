@@ -3,4 +3,5 @@
     <string name="digite">Digite um número</string>
     <string name="par">Par</string>
     <string name="impar">Impar</string>
+    <string name="escolha_maquina">Número do Computador</string>
 </resources>
