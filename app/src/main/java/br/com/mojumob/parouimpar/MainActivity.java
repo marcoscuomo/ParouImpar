@@ -11,12 +11,22 @@ public class MainActivity extends AppCompatActivity {
     //Atributos
     private EditText edtNumero;
     private Button btnPar, btnImpar;
-    private TextView nComputador, somaTotal, parOuImpar, ganhador;
+    private TextView txtNComputador, txtSomaTotal, txtParOuImpar, txtGanhador;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Inicializações
+        edtNumero = findViewById(R.id.edtNumero);
+        btnImpar = findViewById(R.id.btnImpar);
+        btnPar = findViewById(R.id.btnPar);
+        txtNComputador = findViewById(R.id.txtNumeroComputador);
+        txtSomaTotal = findViewById(R.id.txtNumeroResultado);
+        txtParOuImpar = findViewById(R.id.txtParouImpar);
+        txtGanhador = findViewById(R.id.txtGanhador);
+
     }
 }
