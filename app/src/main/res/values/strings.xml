@@ -4,4 +4,6 @@
     <string name="par">Par</string>
     <string name="impar">Impar</string>
     <string name="escolha_maquina">Número do Computador</string>
+    <string name="somaTotal">Soma total</string>
+    <string name="resultadp">Resultado</string>
 </resources>
