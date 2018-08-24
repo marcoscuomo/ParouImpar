@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -82,15 +81,10 @@ public class MainActivity extends AppCompatActivity {
             txtParOuImpar.setText(IMPAR);
         }
 
-        if(escolha == PAR && resultado == PAR){
-            txtGanhador.setText(VITORIA);
-        }else if(escolha == IMPAR && resultado == IMPAR){
+        if((escolha == PAR && resultado == PAR) || (escolha == IMPAR && resultado == IMPAR)){
             txtGanhador.setText(VITORIA);
         }else{
             txtGanhador.setText(DERROTA);
         }
-
-
-
     }
 }
